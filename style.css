@@ -1,0 +1,159 @@
+/* *::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(11, 148, 233);
+    /* background:url(./images/TTD2.jpeg) no-repeat; */
+    /* background-size: cover; */
+/* }
+
+.container{
+    width:400px;
+    height: 400px;
+    padding:30px;
+    background: transparent;
+    border: 2px solid #e6b7eca1;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+h1{
+    color:black;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+.inputcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+
+}
+.todoinput{
+    flex: 1;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    border: 2px solid #e6b7eca1;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-right: 10px;
+    width: 200px;
+    
+}
+.todoinput::placeholder{
+    color: #bfbfbf;
+
+}
+.add-button{
+    border:none;
+    outline: none;
+    background: #e6b7eca1;
+    color:#fff;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 40px;
+    width:40px;
+    height:40px;
+ 
+}
+.empty-image{
+    margin:55px auto 0;
+    display:block;
+
+}
+.check-btn{
+    font: size 25px;px;
+    border-radius: 10px;
+}
+
+.check-btn :hover{
+    cursor: pointer;
+    color:yellowgreen;
+} */
+
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(5, 171, 74, 0.872);
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    background:#d49fd9;
+    border: 2px solid #1b011ea1;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.inputcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.todoinput{
+    flex: 1;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-right: 10px;
+    width: 200px;
+}
+.todoinput::placeholder{
+    color: black;
+}
+.add-button{
+    border: none;
+    outline: none;
+    background: #e9d1e9a1;
+    color:#d49fd9;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+}
+.add-button:hover{
+    background-color: #d49fd9;
+}
+.empty-image{
+    margin: 55px auto 0;
+    display: block;
+}
+.check-btn{
+    font-size: 15px;
+    border-radius: 10px;
+    transition: color 0.3s ease;
+}
+.check-btn:hover{
+    cursor: pointer;
+    color: rgb(9, 10, 10);
+    background-color: gray;
+}
